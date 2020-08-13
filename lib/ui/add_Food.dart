@@ -18,7 +18,6 @@ class AddFood extends StatefulWidget {
 class _AddFoodState extends State<AddFood> {
   final _nameController = TextEditingController();
   final _descriptionController = TextEditingController();
-  final _phoneController = TextEditingController();
   final _priceController =
       MoneyMaskedTextController(decimalSeparator: ',', thousandSeparator: '.');
   final picker = ImagePicker();
