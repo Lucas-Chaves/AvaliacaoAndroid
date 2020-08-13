@@ -21,3 +21,9 @@ Se o projeto atende a todos os requisitos pedidos.
 Se o código possue comentários explicando os métodos.
 Se o código segue as boas práticas de programação
 se o código é de fácil manutenção.
+
+[Link Para o download APK](https://drive.google.com/file/d/1d-97cNMLF8vQows-NtYI96tTUagSrot6/view?usp=sharing)
+
+![Tela inicial](gitImage\1.png)
+![Exibindo Comida](gitImage\2.png )
+![Todas Opçoes](gitImage\4.png  )
