@@ -187,6 +187,7 @@ class _HomePageState extends State<HomePage> {
     _scaffoldKey.currentState.showSnackBar(SnackBar(
       content: Text(value),
       backgroundColor: Colors.red,
+      duration: Duration(seconds: 1),
     ));
   }
 
@@ -266,10 +267,12 @@ class _HomePageState extends State<HomePage> {
       ///Verifica se existe alguma coisa no banco se existir ele vai substituir pelos dados em json.
       if (categories.isNotEmpty) {
         listCategories.forEach((element) {
-          helper.updateCategory(element);
+          element.id = null;
+          helper.saveCategory(element);
         });
         listFoods.forEach((element) {
-          helper.updateFood(element);
+          element.id = null;
+          helper.saveFood(element);
         });
         _getAllFoods();
         return;

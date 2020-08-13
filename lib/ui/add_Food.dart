@@ -107,6 +107,7 @@ class _AddFoodState extends State<AddFood> {
                   }));
                 },
               ),
+              Container(child: Text("Clique na foto para trocar"),),
               _dropButtonCategory(),
               TextField(
                 controller: _nameController,

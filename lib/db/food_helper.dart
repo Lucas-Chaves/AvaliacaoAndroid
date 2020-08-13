@@ -24,7 +24,7 @@ class DbHelper {
   ///iniciando o banco
   Future<Database> initDB() async {
     final databasePath = await getDatabasesPath();
-    final path = join(databasePath, "food13.db");
+    final path = join(databasePath, "food16.db");
 
     return await openDatabase(path, version: 1,
         onCreate: (Database db, int newerVersion) async {
