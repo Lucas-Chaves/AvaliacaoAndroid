@@ -23,7 +23,7 @@ Se o código segue as boas práticas de programação
 se o código é de fácil manutenção.
 
 -------------------
-[Link Para o download APK](https://drive.google.com/file/d/1d-97cNMLF8vQows-NtYI96tTUagSrot6/view?usp=sharing)
+[Link Para o download APK](https://drive.google.com/file/d/1d-97cNMLF8vQows-NtYI96tTUagSrot6/view)
 -------------------
 
 ![Tela inicial](https://github.com/Lucas-Chaves/AvaliacaoAndroid/blob/master/gitImage/1.png?raw=true)
