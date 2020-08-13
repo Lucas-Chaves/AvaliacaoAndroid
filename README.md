@@ -22,8 +22,10 @@ Se o código possue comentários explicando os métodos.
 Se o código segue as boas práticas de programação
 se o código é de fácil manutenção.
 
+-------------------
 [Link Para o download APK](https://drive.google.com/file/d/1d-97cNMLF8vQows-NtYI96tTUagSrot6/view?usp=sharing)
+-------------------
 
-![Tela inicial](gitImage\1.png)
-![Exibindo Comida](gitImage\2.png )
-![Todas Opçoes](gitImage\4.png  )
+![Tela inicial](https://github.com/Lucas-Chaves/AvaliacaoAndroid/blob/master/gitImage/1.png?raw=true)
+![Exibindo Comida](https://github.com/Lucas-Chaves/AvaliacaoAndroid/blob/master/gitImage/2.png?raw=true)
+![Todas Opçoes](https://github.com/Lucas-Chaves/AvaliacaoAndroid/blob/master/gitImage/4.png?raw=true)
