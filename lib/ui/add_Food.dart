@@ -36,10 +36,10 @@ class _AddFoodState extends State<AddFood> {
   void initState() {
     super.initState();
     _getAllCategory();
-
     ///Utiliza a mesma pagina para adicionar ou editar uma comida.
     if (widget.food == null) {
       _editedFood = FoodModel();
+      _editedFood.price = 0.0;
     } else {
       _editedFood = FoodModel.fromMap(widget.food.toMap());
       _nameController.text = _editedFood.name;
@@ -50,11 +50,12 @@ class _AddFoodState extends State<AddFood> {
   }
 
   ///pegando todas as categorias
-  void _getAllCategory() {
-    helper.getAllCategory().then((list) {
+  void _getAllCategory() async {
+    await helper.getAllCategory().then((list) {
       setState(() {
         categoryList = list;
-        _selectedDropMenu = categoryList[0].id;
+        _selectedDropMenu = categoryList.first.id;
+        _editedFood.categoryId = categoryList.first.id;
       });
     });
   }

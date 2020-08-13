@@ -323,6 +323,7 @@ class _HomePageState extends State<HomePage> {
         await helper.saveCategory(categoryResponse);
       }
       _getAllFoods();
+      _getAllCategories();
     }
   }
 
